@@ -1,0 +1,182 @@
+
+<body>
+<div align="center"><h1>Apply for food industries<h1></div>
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #3c3c3c;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffcad8;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 4px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="name" placeholder="Your name..">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Contact NO</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="contact number" placeholder="Your contact no.">
+    </div>
+  </div>
+  
+    <div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="Email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Contact" name="Email" placeholder="email">
+    </div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">Bangladesh</option>
+		<option value="usa">India</option>
+		<option value="usa">Vieatnam</option>
+		<option value="usa">Brazil</option>
+		<option value="usa">Sri-langka</option>
+		<option value="usa">Combodia</option>
+		<option value="usa">Chad</option>
+		<option value="usa">Chili</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Enquiry">Enquiry</label>
+    </div>
+    <div class="col-75">
+      <textarea id="Enquiry" name="Enquiry" placeholder="Write something why you wanna choose this subject?" style="height:100px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+</body>
+<body>
+<h1 align="center">Find the pressure for given liquid<h1>
+Density of fluid:<input type="number" id="r" value="1000"><br></br>
+Height of fluid:<input type="number" id="H" value="10"><br></br>
+<p>Calculating the pressure when the gravity g= 9.81 m/s^2 
+Pressure of fluid:<input type="number" id="row" value="9810"><br></br>
+<p id="demo"></p>
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
